@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bg_grey" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/font_one"
+        android:text="LeftChance:"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/font_one"
+        android:text="2"
+        android:textColor="@color/paleWhite"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TableLayout
+        android:layout_width="215dp"
+        android:layout_height="215dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/p1"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p1" />
+
+            <ImageView
+                android:id="@+id/p2"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p2" />
+
+            <ImageView
+                android:id="@+id/p3"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p3" />
+
+            <ImageView
+                android:id="@+id/p4"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p4" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/p5"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p5" />
+
+            <ImageView
+                android:id="@+id/p6"
+                android:tag="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p2" />
+
+            <ImageView
+                android:id="@+id/p7"
+                android:tag="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p4" />
+
+            <ImageView
+                android:id="@+id/p8"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/p9"
+                android:tag="8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p8" />
+
+            <ImageView
+                android:id="@+id/p10"
+                android:tag="3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p3" />
+
+            <ImageView
+                android:id="@+id/p11"
+                android:tag="6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p6" />
+
+            <ImageView
+                android:id="@+id/p12"
+                android:tag="5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/p13"
+                android:tag="7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p7" />
+
+            <ImageView
+                android:id="@+id/p14"
+                android:tag="7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p7" />
+
+            <ImageView
+                android:id="@+id/p15"
+                android:tag="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p1" />
+
+            <ImageView
+                android:id="@+id/p16"
+                android:tag="8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dip"
+                android:onClick="imgClick"
+                app:srcCompat="@drawable/p8" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
